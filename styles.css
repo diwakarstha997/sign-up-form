@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-container {
+    display: flex;
+}
+
+#sidebar {
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    flex-grow: 1.5;
+}
+
+#form-container {
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
+    flex-grow: 3;
+}
