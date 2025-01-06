@@ -63,5 +63,20 @@ a {
     border-width: 1px;
     border-style: solid;
     border-color: green;
-    flex-grow: 4;
+    flex-grow: 3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+#form-text {
+    font-size: 32px;
+    padding: 0px 100px;
+}
+
+#form-text {
+    max-inline-size: 780px;
+}
+
+
