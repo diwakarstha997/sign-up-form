@@ -4,20 +4,64 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 #main-container {
     display: flex;
 }
 
 #sidebar {
+    background-image: url(https://images.unsplash.com/photo-1668625596972-5498e448b060?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
     border-width: 1px;
     border-style: solid;
     border-color: red;
-    flex-grow: 1.5;
+    
+    height: 100vh;
+    color: white;
+
+    flex-grow: 1;
+}
+
+#logo-container {
+    position: relative;
+    top: 200px;
+
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.473);
+   
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+#logo > img {
+    width: 100%;
+}
+
+#company-name {
+    font-family: 'Sixtyfour', sans-serif;
+    font-size: 32px;
+}
+
+#image-caption {
+    position: relative;
+    top: 85vh;
+    text-align: center;
 }
 
 #form-container {
     border-width: 1px;
     border-style: solid;
     border-color: green;
-    flex-grow: 3;
+    flex-grow: 4;
 }
