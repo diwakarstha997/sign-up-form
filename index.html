@@ -35,19 +35,19 @@
                     </p>
                     <p>You <i>know</i> you want to.</p>
                 </div>
-                <form action="#" id="sign-up-form">
+                <form action="#" id="signup-form">
                     <div id="form-fieldset">
                         <p>Let's do this!</p>
 
                         <div id="first-row">
                             <fieldset>
                                 <legend>FIRST NAME</legend>
-                                <input type="text" id="first-name" name="firstName" />
+                                <input type="text" id="first-name" name="firstName" required/>
                             </fieldset>
     
                             <fieldset>
                                 <legend>LAST NAME</legend>
-                                <input type="text" id="last-name" name="lastName" />
+                                <input type="text" id="last-name" name="lastName" required/>
                             </fieldset>
 
                         </div>
@@ -55,12 +55,12 @@
                         <div id="second-row">
                             <fieldset>
                                 <legend>EMAIL</legend>
-                                <input type="email" id="email" name="email" />
+                                <input type="email" id="email" name="email" required/>
                             </fieldset>
     
                             <fieldset>
                                 <legend>PHONE NUMBER</legend>
-                                <input type="tel" id="phone" name="phone" />
+                                <input type="tel" id="phone" name="phone" required/>
                             </fieldset>
 
                         </div>
@@ -68,16 +68,17 @@
                         <div id="third-row">
                             <fieldset>
                                 <legend>PASSWORD</legend>
-                                <input type="password" id="password" name="password"/>
+                                <input type="password" id="password" name="password" required/>
                             </fieldset>
     
                             <fieldset>
                                 <legend>CONFIRM PASSWORD</legend>
-                                <input type="password" id="confirm-password" name="confirmPassword"/>
+                                <input type="password" id="confirm-password" name="confirmPassword" required/>
                             </fieldset>
                         </div>
 
                     </div>
+                    <button type="submit" id="submit">Create Account</button>
                 </form>
                 <div id="new-user">New User Link</div>
             </div>

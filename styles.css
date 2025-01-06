@@ -82,6 +82,7 @@ a {
     font-size: 14px;
     background-color: white;
     padding-bottom: 20px;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.329);
 }
 
 #form-fieldset > p{
@@ -101,7 +102,7 @@ a {
     border: none;
 }
 
-input {
+#signup-form  input {
     font-size: 18px;
 
     border-width: 1px;
@@ -114,5 +115,21 @@ input {
     padding: 1px 10px;
 }
 
+#signup-form button {
+    font-size: 18px;
+    color: white;
+    background-color: rgba(111,116,85,255);
+
+    border-width: 0px;
+    border-radius: 10px;
+    
+    box-shadow: 0px 0px 5px 1px grey;
+
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding: 10px 60px;
+}
 
 
