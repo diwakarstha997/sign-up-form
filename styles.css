@@ -74,10 +74,12 @@ a {
     font-size: 32px;
 }
 
+/* form text */
 #form-text {
     max-inline-size: 55vw;
 }
 
+/* form elements */
 #form-fieldset{
     font-size: 14px;
     background-color: white;
@@ -125,7 +127,7 @@ input:invalid {
     border: 2px solid red;
 }
 
-
+/* signup button */
 #signup-form button {
     font-size: 18px;
     color: white;
@@ -137,10 +139,21 @@ input:invalid {
     box-shadow: 0px 0px 5px 1px grey;
 
     margin-left: 100px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
 
     padding: 10px 60px;
 }
 
+/* redirect login */
+#login-redirect {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 100px;
+    margin: 20px 0px;
+}
 
+#login-redirect > a{
+    padding: 0px;
+    color: rgba(111,116,85,255);
+}
