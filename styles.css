@@ -157,3 +157,10 @@ input:invalid {
     padding: 0px;
     color: rgba(111,116,85,255);
 }
+
+footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
